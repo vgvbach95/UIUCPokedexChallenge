@@ -1,1 +1,1 @@
-UIUC Pokedex Challengec
+UIUC Pokedex Challenge
