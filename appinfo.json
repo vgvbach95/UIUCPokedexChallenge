@@ -6,8 +6,8 @@
         "location"
     ],
     "companyName": "Victoria Vanderbach",
-    "longName": "Pokedex Challenge",
-    "projectType": "native",
+    "longName": "UIUC Pokedex Challenge",
+    "projectType": "pebblejs",
     "resources": {
         "media": [
             {
