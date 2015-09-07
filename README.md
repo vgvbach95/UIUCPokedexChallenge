@@ -1,8 +1,8 @@
-Explore the Champaign-Urbana area while searching for Pokemon! Find all 151 Pokemon scattered throughout campus and the surrounding area.
+Explore the Lake Forest area while searching for Pokemon! Find all 151 Pokemon scattered throughout the city.
 
 Requires GPS
 
-Only for Champaign-Urbana, Illinois, USA.
+Only for Lake Forest, USA.
 
 Feel free to fork and modify the game for location from my Github: https://github.com/vgvbach95/UIUCPokedexChallenge
 
