@@ -14,4 +14,4 @@ Navigate the Pokedex using the up and down buttons.
 
 Credits:
 All assets are from shutdown27's original 'Pebble Pokedex'.
-No official relatioon to Nintentdo/Game Freak/Pokemon.
+No official relation to Nintentdo/Game Freak/Pokemon.
