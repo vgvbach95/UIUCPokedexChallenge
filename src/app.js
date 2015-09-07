@@ -158,468 +158,313 @@ var poke_names = [
 " ?&0      \nMissingNo\n?????\n",
 null];
 
-var poke_info = [
-" 001      \n\nBulbasaur\n\n0.7  m\n6.9 kg",
-" 002      \n\nIvysaur\n\n1.0  m\n13.0 kg",
-" 003      \n\nVenusaur\n\n2.0  m\n100.0 kg",
-" 004      \n\nCharmander\n\n0.6  m\n8.5 kg",
-" 005      \n\nCharmeleon\n\n1.1  m\n19.0 kg",
-" 006      \n\nCharizard\n\n1.7  m\n90.5 kg",
-" 007      \n\nSquirtle\n\n0.5  m\n9.0 kg",
-" 008      \n\nWartortle\n\n1.0  m\n22.5 kg",
-" 009      \n\nBlastoise\n\n1.6  m\n85.5 kg",
-" 010      \n\nCaterpie\n\n0.3  m\n2.9 kg",
-" 011      \n\nMetapod\n\n0.7  m\n9.9 kg",
-" 012      \n\nButterfree\n\n1.1  m\n32.0 kg",
-" 013      \n\nWeedle\n\n0.3  m\n3.2 kg",
-" 014      \n\nKakuna\n\n0.6  m\n10.0 kg",
-" 015      \n\nBeedrill\n\n1.0  m\n29.5 kg",
-" 016      \n\nPidgey\n\n0.3  m\n1.8 kg",
-" 017      \n\nPidgeotto\n\n1.1  m\n30.0 kg",
-" 018      \n\nPidgeot\n\n1.5  m\n39.5 kg",
-" 019      \n\nRattata\n\n0.3  m\n3.5 kg",
-" 020      \n\nRaticate\n\n0.7  m\n18.5 kg",
-" 021      \n\nSpearow\n\n0.3  m\n2.0 kg",
-" 022      \n\nFearow\n\n1.2  m\n38.0 kg",
-" 023      \n\nEkans\n\n2.0  m\n6.9 kg",
-" 024      \n\nArbok\n\n3.5  m\n65.0 kg",
-" 025      \n\nPikachu\n\n0.4  m\n6.0 kg",
-" 026      \n\nRaichu\n\n0.8  m\n30.0 kg",
-" 027      \n\nSandshrew\n\n0.6  m\n12.0 kg",
-" 028      \n\nSandslash\n\n1.0  m\n29.5 kg",
-" 029      \n\nNidoran F\n\n0.4  m\n7.0 kg",
-" 030      \n\nNidorina\n\n0.8  m\n20.0 kg",
-" 031      \n\nNidoqueen\n\n1.3  m\n60.0 kg",
-" 032      \n\nNidoran M\n\n0.5  m\n9.0 kg",
-" 033      \n\nNidorino\n\n0.9  m\n19.5 kg",
-" 034      \n\nNidoking\n\n1.4  m\n62.0 kg",
-" 035      \n\nClefairy\n\n0.6  m\n7.5 kg",
-" 036      \n\nClefable\n\n1.3  m\n40.0 kg",
-" 037      \n\nVulpix\n\n0.6  m\n9.9 kg",
-" 038      \n\nNinetales\n\n1.1  m\n19.9 kg",
-" 039      \n\nJigglypuff\n\n0.5  m\n5.5 kg",
-" 040      \n\nWigglytuff\n\n1.0  m\n12.0 kg",
-" 041      \n\nZubat\n\n0.8  m\n7.5 kg",
-" 042      \n\nGolbat\n\n1.6  m\n55.0 kg",
-" 043      \n\nOddish\n\n0.5  m\n5.4 kg",
-" 044      \n\nGloom\n\n0.8  m\n8.6 kg",
-" 045      \n\nVileplume\n\n1.2  m\n18.6 kg",
-" 046      \n\nParas\n\n0.3  m\n5.4 kg",
-" 047      \n\nParasect\n\n1.0  m\n29.5 kg",
-" 048      \n\nVenonat\n\n1.0  m\n30.0 kg",
-" 049      \n\nVenomoth\n\n1.5  m\n12.5 kg",
-" 050      \n\nDiglett\n\n0.2  m\n0.8 kg",
-" 051      \n\nDugtrio\n\n0.7  m\n33.3 kg",
-" 052      \n\nMeowth\n\n0.4  m\n4.2 kg",
-" 053      \n\nPersian\n\n1.0  m\n32.0 kg",
-" 054      \n\nPsyduck\n\n0.8  m\n19.6 kg",
-" 055      \n\nGolduck\n\n1.7  m\n76.6 kg",
-" 056      \n\nMankey\n\n0.5  m\n28.0 kg",
-" 057      \n\nPrimeape\n\n1.0  m\n32.0 kg",
-" 058      \n\nGrowlithe\n\n0.7  m\n19.0 kg",
-" 059      \n\nArcanine\n\n1.9  m\n155.0 kg",
-" 060      \n\nPoliwag\n\n0.6  m\n12.4 kg",
-" 061      \n\nPoliwhirl\n\n1.0  m\n20.0 kg",
-" 062      \n\nPoliwrath\n\n1.3  m\n54.0 kg",
-" 063      \n\nAbra\n\n0.9  m\n19.5 kg",
-" 064      \n\nKadabra\n\n1.3  m\n56.5 kg",
-" 065      \n\nAlakazam\n\n1.5  m\n48.0 kg",
-" 066      \n\nMachop\n\n0.8  m\n19.5 kg",
-" 067      \n\nMachoke\n\n1.5  m\n70.5 kg",
-" 068      \n\nMachamp\n\n1.6  m\n130.0 kg",
-" 069      \n\nBellsprout\n\n0.7  m\n4.0 kg",
-" 070      \n\nWeepinbell\n\n1.0  m\n6.4 kg",
-" 071      \n\nVictreebel\n\n1.7  m\n15.5 kg",
-" 072      \n\nTentacool\n\n0.9  m\n45.5 kg",
-" 073      \n\nTentacruel\n\n1.6  m\n55.0 kg",
-" 074      \n\nGeodude\n\n0.4  m\n20.0 kg",
-" 075      \n\nGraveler\n\n1.0  m\n105.0 kg",
-" 076      \n\nGolem\n\n1.4  m\n300.0 kg",
-" 077      \n\nPonyta\n\n1.0  m\n30.0 kg",
-" 078      \n\nRapidash\n\n1.7  m\n95.0 kg",
-" 079      \n\nSlowpoke\n\n1.2  m\n36.0 kg",
-" 080      \n\nSlowbro\n\n1.6  m\n78.5 kg",
-" 081      \n\nMagnemite\n\n0.3  m\n6.0 kg",
-" 082      \n\nMagneton\n\n1.0  m\n60.0 kg",
-" 083      \n\nFarfetch'd\n\n0.8  m\n15.0 kg",
-" 084      \n\nDoduo\n\n1.4  m\n39.2 kg",
-" 085      \n\nDodrio\n\n1.8  m\n85.2 kg",
-" 086      \n\nSeel\n\n1.1  m\n90.0 kg",
-" 087      \n\nDewgong\n\n1.7  m\n120.0 kg",
-" 088      \n\nGrimer\n\n0.9  m\n30.0 kg",
-" 089      \n\nMuk\n\n1.2  m\n30.0 kg",
-" 090      \n\nShellder\n\n0.3  m\n4.0 kg",
-" 091      \n\nCloyster\n\n1.5  m\n132.5 kg",
-" 092      \n\nGastly\n\n1.3  m\n0.1 kg",
-" 093      \n\nHaunter\n\n1.6  m\n0.1 kg",
-" 094      \n\nGengar\n\n1.5  m\n40.5 kg",
-" 095      \n\nOnix\n\n8.8  m\n210.0 kg",
-" 096      \n\nDrowzee\n\n1.0  m\n32.4 kg",
-" 097      \n\nHypno\n\n1.6  m\n75.6 kg",
-" 098      \n\nKrabby\n\n0.4  m\n6.5 kg",
-" 099      \n\nKingler\n\n1.3  m\n60.0 kg",
-" 100      \n\nVoltorb\n\n0.5  m\n10.4 kg",
-" 101      \n\nElectrode\n\n1.2  m\n66.6 kg",
-" 102      \n\nExeggcute\n\n0.4  m\n2.5 kg",
-" 103      \n\nExeggutor\n\n2.0  m\n120.0 kg",
-" 104      \n\nCubone\n\n0.4  m\n6.5 kg",
-" 105      \n\nMarowak\n\n1.0  m\n45.0 kg",
-" 106      \n\nHitmonlee\n\n1.5  m\n49.8 kg",
-" 107      \n\nHitmonchan\n\n1.4  m\n50.2 kg",
-" 108      \n\nLickitung\n\n1.2  m\n65.5 kg",
-" 109      \n\nKoffing\n\n0.6  m\n1.0 kg",
-" 110      \n\nWeezing\n\n1.2  m\n9.5 kg",
-" 111      \n\nRhyhorn\n\n1.0  m\n115.0 kg",
-" 112      \n\nRhydon\n\n1.9  m\n120.0 kg",
-" 113      \n\nChansey\n\n1.1  m\n34.6 kg",
-" 114      \n\nTangela\n\n1.0  m\n35.0 kg",
-" 115      \n\nKangaskhan\n\n2.2  m\n80.0 kg",
-" 116      \n\nHorsea\n\n0.4  m\n8.0 kg",
-" 117      \n\nSeadra\n\n1.2  m\n25.0 kg",
-" 118      \n\nGoldeen\n\n0.6  m\n15.0 kg",
-" 119      \n\nSeaking\n\n1.3  m\n39.0 kg",
-" 120      \n\nStaryu\n\n0.8  m\n34.5 kg",
-" 121      \n\nStarmie\n\n1.1  m\n80.0 kg",
-" 122      \n\nMr.Mime\n\n1.3  m\n54.5 kg",
-" 123      \n\nScyther\n\n1.5  m\n56.0 kg",
-" 124      \n\nJynx\n\n1.4  m\n40.6 kg",
-" 125      \n\nElectabuzz\n\n1.1  m\n30.0 kg",
-" 126      \n\nMagmar\n\n1.3  m\n44.5 kg",
-" 127      \n\nPinsir\n\n1.5  m\n55.0 kg",
-" 128      \n\nTauros\n\n1.4  m\n88.4 kg",
-" 129      \n\nMagikarp\n\n0.9  m\n10.0 kg",
-" 130      \n\nGyarados\n\n6.5  m\n235.0 kg",
-" 131      \n\nLapras\n\n2.5  m\n220.0 kg",
-" 132      \n\nDitto\n\n0.3  m\n4.0 kg",
-" 133      \n\nEevee\n\n0.3  m\n6.5 kg",
-" 134      \n\nVaporeon\n\n1.0  m\n29.0 kg",
-" 135      \n\nJolteon\n\n0.8  m\n24.5 kg",
-" 136      \n\nFlareon\n\n0.9  m\n25.0 kg",
-" 137      \n\nPorygon\n\n0.8  m\n36.5 kg",
-" 138      \n\nOmanyte\n\n0.4  m\n7.5 kg",
-" 139      \n\nOmastar\n\n1.0  m\n35.0 kg",
-" 140      \n\nKabuto\n\n0.5  m\n11.5 kg",
-" 141      \n\nKabutops\n\n1.3  m\n40.5 kg",
-" 142      \n\nAerodactyl\n\n1.8  m\n59.0 kg",
-" 143      \n\nSnorlax\n\n2.1  m\n460.0 kg",
-" 144      \n\nArticuno\n\n1.7  m\n55.4 kg",
-" 145      \n\nZapdos\n\n1.6  m\n52.6 kg",
-" 146      \n\nMoltres\n\n2.0  m\n60.0 kg",
-" 147      \n\nDratini\n\n1.8  m\n3.3 kg",
-" 148      \n\nDragonair\n\n4.0  m\n16.5 kg",
-" 149      \n\nDragonite\n\n2.2  m\n210.0 kg",
-" 150      \n\nMewtwo\n\n2.0  m\n122.0 kg",
-" 151      \n\nMew\n\n0.4  m\n4.0 kg",
-null];
-
 var poke_images = [ 
-'poke1.png',
-'poke2.png',
-'poke3.png',
-'poke4.png',
-'poke5.png',
-'poke6.png',
-'poke7.png',
-'poke8.png',
-'poke9.png',
-'poke10.png',
-'poke11.png',
-'poke12.png',
-'poke13.png',
-'poke14.png',
-'poke15.png',
-'poke16.png',
-'poke17.png',
-'poke18.png',
-'poke19.png',
-'poke20.png',
-'poke21.png',
-'poke22.png',
-'poke23.png',
-'poke24.png',
-'poke25.png',
-'poke26.png',
-'poke27.png',
-'poke28.png',
-'poke29.png',
-'poke30.png',
-'poke31.png',
-'poke32.png',
-'poke33.png',
-'poke34.png',
-'poke35.png',
-'poke36.png',
-'poke37.png',
-'poke38.png',
-'poke39.png',
-'poke40.png',
-'poke41.png',
-'poke42.png',
-'poke43.png',
-'poke44.png',
-'poke45.png',
-'poke46.png',
-'poke47.png',
-'poke48.png',
-'poke49.png',
-'poke50.png',
-'poke51.png',
-'poke52.png',
-'poke53.png',
-'poke54.png',
-'poke55.png',
-'poke56.png',
-'poke57.png',
-'poke58.png',
-'poke59.png',
-'poke60.png',
-'poke61.png',
-'poke62.png',
-'poke63.png',
-'poke64.png',
-'poke65.png',
-'poke66.png',
-'poke67.png',
-'poke68.png',
-'poke69.png',
-'poke70.png',
-'poke81.png',
-'poke82.png',
-'poke83.png',
-'poke84.png',
-'poke85.png',
-'poke86.png',
-'poke87.png',
-'poke88.png',
-'poke89.png',
-'poke90.png',
-'poke91.png',
-'poke92.png',
-'poke93.png',
-'poke94.png',
-'poke95.png',
-'poke96.png',
-'poke97.png',
-'poke98.png',
-'poke99.png',
-'poke100.png',
-'poke101.png',
-'poke102.png',
-'poke103.png',
-'poke104.png',
-'poke105.png',
-'poke106.png',
-'poke107.png',
-'poke108.png',
-'poke109.png',
-'poke110.png',
-'poke111.png',
-'poke112.png',
-'poke113.png',
-'poke114.png',
-'poke115.png',
-'poke116.png',
-'poke117.png',
-'poke118.png',
-'poke119.png',
-'poke120.png',
-'poke120.png',
-'poke121.png',
-'poke122.png',
-'poke123.png',
-'poke124.png',
-'poke125.png',
-'poke126.png',
-'poke127.png',
-'poke128.png',
-'poke129.png',
-'poke130.png',
-'poke131.png',
-'poke132.png',
-'poke133.png',
-'poke134.png',
-'poke135.png',
-'poke136.png',
-'poke137.png',
-'poke138.png',
-'poke139.png',
-'poke130.png',
-'poke131.png',
-'poke132.png',
-'poke133.png',
-'poke134.png',
-'poke135.png',
-'poke136.png',
-'poke137.png',
-'poke138.png',
-'poke139.png',
-'poke140.png',
-'poke141.png',
-'poke142.png',
-'poke143.png',
-'poke144.png',
-'poke145.png',
-'poke146.png',
-'poke147.png',
-'poke148.png',
-'poke149.png',
-'poke150.png',
-'poke151.png',
-'unknown.png'
+'images/poke1.png',
+'images/poke2.png',
+'images/poke3.png',
+'images/poke4.png',
+'images/poke5.png',
+'images/poke6.png',
+'images/poke7.png',
+'images/poke8.png',
+'images/poke9.png',
+'images/poke10.png',
+'images/poke11.png',
+'images/poke12.png',
+'images/poke13.png',
+'images/poke14.png',
+'images/poke15.png',
+'images/poke16.png',
+'images/poke17.png',
+'images/poke18.png',
+'images/poke19.png',
+'images/poke20.png',
+'images/poke21.png',
+'images/poke22.png',
+'images/poke23.png',
+'images/poke24.png',
+'images/poke25.png',
+'images/poke26.png',
+'images/poke27.png',
+'images/poke28.png',
+'images/poke29.png',
+'images/poke30.png',
+'images/poke31.png',
+'images/poke32.png',
+'images/poke33.png',
+'images/poke34.png',
+'images/poke35.png',
+'images/poke36.png',
+'images/poke37.png',
+'images/poke38.png',
+'images/poke39.png',
+'images/poke40.png',
+'images/poke41.png',
+'images/poke42.png',
+'images/poke43.png',
+'images/poke44.png',
+'images/poke45.png',
+'images/poke46.png',
+'images/poke47.png',
+'images/poke48.png',
+'images/poke49.png',
+'images/poke50.png',
+'images/poke51.png',
+'images/poke52.png',
+'images/poke53.png',
+'images/poke54.png',
+'images/poke55.png',
+'images/poke56.png',
+'images/poke57.png',
+'images/poke58.png',
+'images/poke59.png',
+'images/poke60.png',
+'images/poke61.png',
+'images/poke62.png',
+'images/poke63.png',
+'images/poke64.png',
+'images/poke65.png',
+'images/poke66.png',
+'images/poke67.png',
+'images/poke68.png',
+'images/poke69.png',
+'images/poke70.png',
+'images/poke71.png',
+'images/poke72.png',
+'images/poke73.png',
+'images/poke74.png',
+'images/poke75.png',
+'images/poke76.png',
+'images/poke77.png',
+'images/poke78.png',
+'images/poke79.png',
+'images/poke80.png',
+'images/poke81.png',
+'images/poke82.png',
+'images/poke83.png',
+'images/poke84.png',
+'images/poke85.png',
+'images/poke86.png',
+'images/poke87.png',
+'images/poke88.png',
+'images/poke89.png',
+'images/poke90.png',
+'images/poke91.png',
+'images/poke92.png',
+'images/poke93.png',
+'images/poke94.png',
+'images/poke95.png',
+'images/poke96.png',
+'images/poke97.png',
+'images/poke98.png',
+'images/poke99.png',
+'images/poke100.png',
+'images/poke101.png',
+'images/poke102.png',
+'images/poke103.png',
+'images/poke104.png',
+'images/poke105.png',
+'images/poke106.png',
+'images/poke107.png',
+'images/poke108.png',
+'images/poke109.png',
+'images/poke110.png',
+'images/poke111.png',
+'images/poke112.png',
+'images/poke113.png',
+'images/poke114.png',
+'images/poke115.png',
+'images/poke116.png',
+'images/poke117.png',
+'images/poke118.png',
+'images/poke119.png',
+'images/poke120.png',
+'images/poke121.png',
+'images/poke122.png',
+'images/poke123.png',
+'images/poke124.png',
+'images/poke125.png',
+'images/poke126.png',
+'images/poke127.png',
+'images/poke128.png',
+'images/poke129.png',
+'images/poke130.png',
+'images/poke131.png',
+'images/poke132.png',
+'images/poke133.png',
+'images/poke134.png',
+'images/poke135.png',
+'images/poke136.png',
+'images/poke137.png',
+'images/poke138.png',
+'images/poke139.png',
+'images/poke140.png',
+'images/poke141.png',
+'images/poke142.png',
+'images/poke143.png',
+'images/poke144.png',
+'images/poke145.png',
+'images/poke146.png',
+'images/poke147.png',
+'images/poke148.png',
+'images/poke149.png',
+'images/poke150.png',
+'images/poke151.png',
+'images/unknown.png'
 ];
 
 var poke_gps_location = [
-  [0,0], //1
-  [0,0], //2
-  [0,0], //3
-  [0,0], //4
-  [0,0], //5
-  [0,0], //6
-  [0,0], //7
-  [0,0], //8
-  [0,0], //9
-  [0,0], //10
-  [0,0], //11
-  [0,0], //12
-  [0,0], //13
-  [0,0], //14
-  [0,0], //15
-  [0,0], //16
-  [0,0], //17
-  [0,0], //18
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [40.1153, -88.2314],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0],
-  [0,0]
+  [40.1086,-88.2198], //1
+  [40.1123,-88.2276], //2
+  [40.1095,-88.2296], //3
+  [40.1117,-88.2270], //4
+  [40.0928,-88.2212], //5
+  [40.1077,-88.2260], //6
+  [40.1088,-88.2271], //7
+  [40.1044,-88.2218], //8
+  [40.1146,-88.2273], //9
+  [40.1071,-88.2316], //10
+  [40.1084,-88.2279], //11
+  [40.1028,-88.2272], //12
+  [40.1066,-88.2271], //13
+  [40.0951,-88.2167], //14
+  [40.1148,-88.2250], //15
+  [40.1100,-88.2233], //16
+  [40.1019,-88.2247], //17
+  [40.1186,-88.2448], //18
+  [40.1047,-88.2230],
+  [40.1036,-88.2298],
+  [40.1038,-88.2237],
+  [40.1117,-88.2265],
+  [40.1039,-88.2272],
+  [40.1170,-8.2433],
+  [40.1139,-88.2252],
+  [40.1103,-88.2361],
+  [40.0994,-88.2230],
+  [40.1074,-88.2279],
+  [40.1086,-88.2211],
+  [40.1422,-88.2434],
+  [40.1118,-88.2279],
+  [40.1451,-88.2604],
+  [40.1055,-88.2226],
+  [40.1065,-88.2323],
+  [40.1046,-88.2290],
+  [40.1123,-88.2269],
+  [40.1184,-88.2437],
+  [40.0989,-88.2209],
+  [40.1046,-88.2249],
+  [40.1064,-88.2211],
+  [40.1451,-88.2604],
+  [40.1022,-88.2279],
+  [40.1084,-88.2263],
+  [40.1111,-88.2269],
+  [40.1084,-88.2244],
+  [40.0998,-88.2203],
+  [40.1095,-88.2272],
+  [40.1107,-88.2208],
+  [40.1103,-88.2389],
+  [40.1010,-88.2226],
+  [40.1040,-88.2197],
+  [40.1056,-88.2282],
+  [40.1130,-88.2264],
+  [40.1044,-88.2319],
+  [40.1028,-88.2199],
+  [40.1057,-88.2200],
+  [40.1075,-88.2272],
+  [40.1012,-88.2264],
+  [40.1118,-88.2208],
+  [40.1039,-88.2308],
+  [40.1131,-88.2338],
+  [40.1109,-88.2219],
+  [40.1047,-88.2272],
+  [40.1027,-88.2228],
+  [40.1106,-88.2282],
+  [40.1032,-88.2290],
+  [40.1104,-88.2311],
+  [40.1065,-88.2236],
+  [40.1068,-88.2217],
+  [40.1124,-88.2231],
+  [40.1090,-88.2266],
+  [40.1013,-88.2293],
+  [40.1025,-88.2215],
+  [40.1049,-88.2199],
+  [40.1141, -88.2265],
+  [40.1059,-88.2271],
+  [40.1095,-88.2261],
+  [40.1108,-88.2197],
+  [40.1076,-88.2251],
+  [40.0926,-88.2179],
+  [40.1129,-88.2283],
+  [40.1085,-88.2252],
+  [40.1009,-88.2200],
+  [40.0976,-88.2477],
+  [40.0905,-88.2231],
+  [40.1107,-88.2261],
+  [40.1036,-88.2284],
+  [40.1104,-88.2301],
+  [40.1020,-88.2297],
+  [40.1027,-88.2251],
+  [40.1146,-88.2259],
+  [40.1066,-88.2281],
+  [40.1096,-88.2308],
+  [40.1095,-88.2213],
+  [40.1096,-88.2319],
+  [40.1125,-88.2221],
+  [40.1056,-88.2258],
+  [40.1006,-88.2399],
+  [40.1099,-88.2283],
+  [40.1141,-88.2276],
+  [40.1136,-88.2034],
+  [40.0963,-88.2361],
+  [40.1100,-88.2290],
+  [40.1080,-88.2198],
+  [40.1052,-88.2260],
+  [40.1100,-88.2355],
+  [40.1120,-88.2244],
+  [40.1094,-88.2292],
+  [40.0910,-88.2406],
+  [40.1266,-88.1981],
+  [40.1109,-88.2235],
+  [40.1166,-88.2254],
+  [40.1068,-88.2203],
+  [40.1102,-88.2241],
+  [40.1075,-88.2209],
+  [40.1120,-88.2361],
+  [40.1149,-88.2269],
+  [40.1082,-88.2291],
+  [40.1033,-88.2349],
+  [40.1071,-88.2264],
+  [40.1114,-88.2242],
+  [40.1059,-88.2245],
+  [40.1108,-88.2069],
+  [40.1009,-88.2316],
+  [40.1047,-88.2240],
+  [40.1063,-88.2260],
+  [40.0637,-88.2941],
+  [40.1148,-88.2278],
+  [40.1151,-88.2371],
+  [40.1075,-88.2299],
+  [40.1094,-88.2236],
+  [40.1107,-88.2246],
+  [40.1103,-88.2259],
+  [40.1011,-88.2341],
+  [40.1094,-88.2283],
+  [40.1170,-88.2424],
+  [40.1112, -88.2290],
+  [40.1134,-88.2077],
+  [40.1010,-88.2358],
+  [40.1183,-88.2110],
+  [40.1156,-88.2273],
+  [40.1161,-88.2196],
+  [40.1018,-88.2322],
+  [40.1083,-88.2271],
+  [40.0992,-88.2370],
+  [40.1105,-88.2290],
+  [40.1080,-88.2229],
+  [40.1057,-88.2324],
+  [40.1162,-88.2273],
+  [40.1160,-88.2421],
+  [40.1155,-88.2132]
 ];
 
 var LATITUDE = -1.0;
@@ -628,23 +473,70 @@ var ALTITUDE = -1.0;
 //POKEDEX Cards
 var pokemon_found_entries;
 
-var current_viewable_entry_index;
+var current_viewable_entry_index = 0;
 
-var pokedex_entry_card = new UI.Card({
-  title: 'Pokedex',
-  body: poke_names[NUM_POKEMON]
+var top_bar_image = new UI.Image({
+  image: 'images/ui_top.png',
+  size: new Vector2(144, 11),
+  position: new Vector2(0, 0)
+});
+var bottom_bar_image = new UI.Image({
+  image: 'images/ui_bottom.png',
+  size: new Vector2(144, 11),
+  position: new Vector2(0, 157)
+});
+var catch_button_indicator_image = new UI.Image({
+  image: 'images/complete.png',
+  size: new Vector2(14, 14),
+  position: new Vector2(124, 77)
 });
 
-/*var poke_image = new UI.Image({
-  position: new Vector2(50,50),
+var pokedex_entry_card = new UI.Window({
+  backgroundColor: 'white',
+  fullscreen: true
+});
+
+var pokedex_entry_text = new UI.Text({
+  text: poke_names[NUM_POKEMON],
+  position: new Vector2(10,70),
+  size: new Vector2(144, 80),
+  backgroundColor: 'clear',
+  color: 'black'
+});
+
+var pokedex_entry_number_text = new UI.Text({
+  text: String(current_viewable_entry_index+1),
+  position: new Vector2(110, 128),
+  size: new Vector2(50, 50),
+  backgroundColor: 'clear',
+  color: 'black'
+});
+
+var poke_image = new UI.Image({
+  position: new Vector2(10,15),
   size: new Vector2(56, 56),
-  image: POKEMON_DATA.poke_images[POKEMON_DATA.NUM_POKEMON]
-});*/
+  image: poke_images[NUM_POKEMON],
+  backgroundColor: 'clear'
+});
 
 //CATCH A POKEMON Cards
-var catch_pokemon_card = new UI.Card({
-  title: 'Look for a Pokemon',
-  body: 'Throw a Pokeball!'
+var catch_pokemon_card = new UI.Window({
+  fullscreen: true,
+  backgroundColor: 'white'
+});
+
+var catch_arrow_image = new UI.Image({
+  image: 'images/arrow.png',
+  size: new Vector2(144, 50),
+  position: new Vector2(0, 115)
+});
+var catch_pokemon_title = new UI.Text({
+  backgroundColor: 'clear',
+  color: 'black',
+  position: new Vector2(10, 20),
+  size: new Vector2(124, 60),
+  text: 'Throw a \nPokeball!',
+  font: 'GOTHIC_28_BOLD'
 });
 
 var successful_pokemon_catch_card = new UI.Card({
@@ -688,12 +580,9 @@ function locationSuccess(pos) {
   var found_pokemon_index = -1;
   
   for(pokemon_index = 0; pokemon_index < NUM_POKEMON; pokemon_index++){
-    //console.log('lat_pokemon:' + poke_gps_location[pokemon_index][0] + ' lon_pokemon:' + poke_gps_location[pokemon_index][1]);
-    if((poke_gps_location[pokemon_index][0]*1.01) >= LATITUDE && (poke_gps_location[pokemon_index][0]*0.99) <= LATITUDE){
-      if((Math.abs(poke_gps_location[pokemon_index][1]*1.01)) >= Math.abs(LONGITUDE) && (Math.abs(poke_gps_location[pokemon_index][1]*0.99)) <= Math.abs(LONGITUDE)){
+    if((poke_gps_location[pokemon_index][0]*1.000005) >= LATITUDE && (poke_gps_location[pokemon_index][0]*0.999995) <= LATITUDE){
+      if((Math.abs(poke_gps_location[pokemon_index][1]*1.000005)) >= Math.abs(LONGITUDE) && (Math.abs(poke_gps_location[pokemon_index][1]*0.999995)) <= Math.abs(LONGITUDE)){
         found_pokemon_index = pokemon_index;
-        console.log('found a pokemon');
-        console.log(found_pokemon_index);
         break;
       }
     }
@@ -703,7 +592,7 @@ function locationSuccess(pos) {
     //SUCCESS
     successful_pokemon_catch_card.show();
     pokemon_found_entries[found_pokemon_index] = true;
-    console.log(pokemon_found_entries[found_pokemon_index]);
+    //console.log(pokemon_found_entries[found_pokemon_index]);
     current_viewable_entry_index = found_pokemon_index;
     localStorage.setItem('Pokedex_finds', pokemon_found_entries);
   }
@@ -723,57 +612,67 @@ function transition_to_pokedex_entry(entry_number){
   // LOOP IF GOES OVER
    if(entry_number < 0) {entry_number = NUM_POKEMON-1;}
    else if(entry_number > NUM_POKEMON-1) {entry_number = 0;}
-  console.log('Entry_num:' + entry_number + " value:" + pokemon_found_entries[entry_number]);
+  //console.log('Entry_num:' + entry_number + " value:" + pokemon_found_entries[entry_number]);
    if(pokemon_found_entries[entry_number]){
      //Known Pokemon
-     pokedex_entry_card.body(poke_names[entry_number]);
-     //poke_image.image = poke_images[entry_number];
+     pokedex_entry_text.text(poke_names[entry_number]);
+     poke_image.image(poke_images[entry_number]);
    }
   else {
     //Unknown Pokemon
-    pokedex_entry_card.body(poke_names[NUM_POKEMON]);
-    //poke_image.image = poke_images[NUM_POKEMON];
+    pokedex_entry_text.text(poke_names[NUM_POKEMON]);
+    poke_image.image(poke_images[NUM_POKEMON]);
   }
-  //pokedex_entry_card.add(poke_image);
-  console.log("changing screens");
-  pokedex_entry_card.show();
   current_viewable_entry_index = entry_number;
+  
+  console.log(poke_image.image);
+  pokedex_entry_card.add(pokedex_entry_text);
+  pokedex_entry_number_text.text(String(current_viewable_entry_index+1));
+  pokedex_entry_card.add(pokedex_entry_number_text);
+  pokedex_entry_card.add(poke_image);
+  pokedex_entry_card.add(top_bar_image);
+  pokedex_entry_card.add(bottom_bar_image);
+  pokedex_entry_card.add(catch_button_indicator_image);
+  //console.log("changing screens");
+  pokedex_entry_card.show();
 }
 
 catch_pokemon_card.on('click', 'down', function() {
-  console.log('Catching a pokemon Click:');
+  //console.log('Catching a pokemon Click:');
   //UPDATE GPS COORDS
   navigator.geolocation.getCurrentPosition(locationSuccess, locationError, locationOptions);
   waiting_for_catch_info.show();
   catch_pokemon_card.hide();
 });
 
-catch_pokemon_card.on('click', 'select', function(e){
+catch_pokemon_card.on('click', 'select', function(){
   //Change the pokedex_card to the current viewable poke index if the pokemon has been found
-  console.log('select Click');
+  //console.log('select Click');
   transition_to_pokedex_entry(current_viewable_entry_index);
   catch_pokemon_card.hide();
 });
 
-pokedex_entry_card.on('click', 'select', function(e){
+pokedex_entry_card.on('click', 'select', function(){
+  catch_pokemon_card.add(catch_arrow_image);
+  catch_pokemon_card.add(catch_pokemon_title);
   catch_pokemon_card.show();
   pokedex_entry_card.hide();
 });
 
-pokedex_entry_card.on('click', 'up', function(e){
+pokedex_entry_card.on('click', 'up', function(){
   transition_to_pokedex_entry(current_viewable_entry_index-1);
 });
 
-pokedex_entry_card.on('click', 'down', function(e){
+pokedex_entry_card.on('click', 'down', function(){
   transition_to_pokedex_entry(current_viewable_entry_index+1);
 });
 
-successful_pokemon_catch_card.on('click', 'down', function(e){
+successful_pokemon_catch_card.on('click', 'down', function(){
   transition_to_pokedex_entry(current_viewable_entry_index);
   successful_pokemon_catch_card.hide();
 });
 
-failed_pokemon_catch_card.on('click', 'down', function(e){
+failed_pokemon_catch_card.on('click', 'down', function(){
   transition_to_pokedex_entry(current_viewable_entry_index);
   failed_pokemon_catch_card.hide();
 });
